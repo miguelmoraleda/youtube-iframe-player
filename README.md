@@ -57,3 +57,11 @@ beefy test/index.js 9000
 ## Dependency 
 
 * [require-sdk](https://github.com/azer/require-sdk)
+
+## Contributing
+
+If you want to add any of the original functions to this module, please feel free to send a pull request
+
+## Release History
+
+* 0.1.0 Initial release
