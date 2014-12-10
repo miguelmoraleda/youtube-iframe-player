@@ -1,5 +1,7 @@
 ## youtube-iframe-player
 
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/miguelmoraleda/youtube-iframe-player?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Node.js module for load and control a Youtube iFrame Video Player. This module doesn't expose all functions of the original player. To call any of this functions, please use the player reference present in this module.
 
 
