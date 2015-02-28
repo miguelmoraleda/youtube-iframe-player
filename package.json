@@ -1,8 +1,12 @@
 {
   "name": "youtube-iframe-player",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "This module load the iframe youtube iframe player API, let you create and control video players",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmoraleda/youtube-iframe-player"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
