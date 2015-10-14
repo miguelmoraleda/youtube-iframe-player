@@ -35,7 +35,7 @@ youtube.init(function() {
     }
 
     function onPlayerStateChange(event) {
-        console.log(event);
+        console.log('Player State Changed: ', event);
     }
 });
 ```
@@ -56,7 +56,7 @@ npm install -g beefy
 beefy test/index.js 9000
 ```
 
-## Dependency 
+## Dependency
 
 * [require-sdk](https://github.com/azer/require-sdk)
 
@@ -66,4 +66,6 @@ If you want to add any of the original functions to this module, please feel fre
 
 ## Release History
 
-* 0.1.0 Initial release
+* 0.1.0 Initial work. Beta Version
+* 1.0.0 First Stable Release
+* 1.0.1 Fix to avoid redirect.
