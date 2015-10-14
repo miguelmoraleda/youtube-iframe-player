@@ -9,7 +9,7 @@ module.exports = {
   player: null,
 
   init: function(onComplete) {
-    var requireYoutube = requireSDK('https://youtube.com/iframe_api', 'YT');
+    var requireYoutube = requireSDK('https://www.youtube.com/iframe_api', 'YT');
     /**
      * @todo We need try to avoid the use of window.
      * YouTube API call onYouTubeIframeAPIReady() when is loaded,
