@@ -4,7 +4,7 @@ require('domready')(function () {
 	console.log('dom ready, starting test.');
 
 	var body = document.getElementsByTagName("body")[0];
-    
+
 	var container = document.createElement('div');
 	container.setAttribute("id", "container");
 	body.appendChild(container);
@@ -26,11 +26,11 @@ require('domready')(function () {
 
 
     function playerReady() {
-    	// test.play();
+    	test.play();
     }
 
     function onPlayerStateChange(event) {
-    	console.log(event);
+    	console.log('Player State Changed: ', event);
     }
 
 });
