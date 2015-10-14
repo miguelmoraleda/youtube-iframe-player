@@ -31,7 +31,7 @@ youtube.init(function() {
     });
 
     function playerReady(event) {
-        youtubePlayer.play();
+        youtubePlayer.playVideo();
     }
 
     function onPlayerStateChange(event) {
